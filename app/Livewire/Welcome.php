@@ -49,7 +49,7 @@ class Welcome extends Component
     public function users(): Collection
     {
         return collect([
-            ['id' => 1, 'name' => 'Mary', 'email' => 'mary@mary-ui.com', 'age' => 23],
+            ['id' => 1, 'name' => 'Mary', 'email' => 'mary@mary-ui.com', 'age' => 25],
             ['id' => 2, 'name' => 'Giovanna', 'email' => 'giovanna@mary-ui.com', 'age' => 7],
             ['id' => 3, 'name' => 'Marina', 'email' => 'marina@mary-ui.com', 'age' => 5],
         ])

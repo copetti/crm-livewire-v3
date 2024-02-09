@@ -37,7 +37,7 @@
                 @if($user = auth()->user())
                     <x-list-item :item="$user" sub-value="username" no-separator no-hover class="!-mx-2 mt-2 mb-5 border-y border-y-sky-900">
                         <x-slot:actions>
-                            <x-button icon="o-power" class="btn-circle btn-ghost btn-xs" tooltip-left="logoff" />
+                            <livewire:auth.logout />
                         </x-slot:actions>
                     </x-list-item>
                 @endif

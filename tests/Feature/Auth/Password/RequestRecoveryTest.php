@@ -9,7 +9,7 @@ use Livewire\Livewire;
 
 test('needs to have a route to password recovery', function (){
 
-    $this->get(route('auth.password.recovery'))
+    $this->get(route('password.recovery'))
         ->assertOk();
 
 });
